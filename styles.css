@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F0FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
