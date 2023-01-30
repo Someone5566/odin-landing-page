@@ -100,3 +100,24 @@ a {
 .info-subtext {
     max-width: 120px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    max-width: 800px;
+    font-weight: lighter;
+}
+
+.quote-ref {
+    margin-left: 500px;
+    margin-top: 12px;
+}
