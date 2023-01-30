@@ -70,4 +70,33 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.information {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.info-img {
+    width: 100px;
+    height: 100px;
+    border: solid blue 2px;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+}
+
+.info-subtext {
+    max-width: 120px;
 }
